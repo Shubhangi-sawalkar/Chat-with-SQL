@@ -39,8 +39,16 @@ The chatbot integrates multiple technologies for a smooth experience:
    git clone [repository-link]
    cd [repository-directory]
 
-##  Install dependencies
 
-### 1. Run the following command to install all required Python packages:
+2. Run the following command to install all required Python packages:
    ```bash
   pip install -r requirements.txt
+
+
+3. Create a .env file in the root directory of your project and add the following environment variables:
+   ```plaintext
+OPENAI_API_KEY=[your-openai-api-key]
+MSSQL_SERVER=[your-mssql-server]
+MSSQL_DATABASE=[your-database-name]
+MSSQL_USER=[your-username]
+MSSQL_PASSWORD=[your-password]
