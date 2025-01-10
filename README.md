@@ -1,56 +1,40 @@
-**MSSQL Python Chatbot**
+# MSSQL Python Chatbot with GPT-4 and Mistral AI
 
-Welcome to the GitHub repository for our tutorial on building a natural language SQL chatbot using GPT-4! This project demonstrates how to create a chatbot capable of interpreting natural language queries, generating SQL queries, and fetching results from a Microsoft SQL Server (MSSQL) database. The project is intuitive and user-friendly, leveraging the power of OpenAI's GPT-4 model and an interactive Streamlit GUI.
+Welcome to the **MSSQL Python Chatbot** project! This chatbot leverages OpenAI's GPT-4 to interpret natural language queries, convert them into SQL commands, and execute them against a **Microsoft SQL Server (MSSQL)** database. A sleek, user-friendly interface powered by **Streamlit** ensures seamless interaction for users.
 
+---
 
+## 🌟 Features
 
-Features
-Natural Language Processing: Leverages GPT-4 to understand and respond to user queries in natural language.
-SQL Query Generation: Dynamically generates SQL queries tailored to user input.
-Database Interaction: Connects to MSSQL databases for executing queries and retrieving results.
-Streamlit GUI: Provides a sleek and accessible interface built with Streamlit, catering to users of all skill levels.
-Python-Based: Entirely developed in Python, following modern development practices.
-How It Works
-The chatbot seamlessly processes user queries by:
+- **Natural Language Processing**:  
+  Understands and responds to conversational queries using GPT-4.  
+- **SQL Query Generation**:  
+  Dynamically generates SQL queries from natural language input.  
+- **MSSQL Database Interaction**:  
+  Fetches and processes data from MSSQL databases.  
+- **Streamlit GUI**:  
+  Interactive and intuitive graphical interface for all users.  
+- **Python-Powered**:  
+  Demonstrates best practices in Python development.  
 
-Converting natural language input into SQL queries with GPT-4.
-Executing the generated SQL query on a Microsoft SQL Server (MSSQL) database.
-Presenting the retrieved results back to the user in a conversational format.
-This integration involves GPT-4 for query generation, database interaction through Python, and an engaging GUI via Streamlit.
+---
 
+## 🚀 How It Works
 
-Installation
-Ensure Python is installed on your system.
-Clone the repository:
-bash
-Copy code
-git clone [repository-link]
-cd [repository-directory]
-Install dependencies:
-bash
-Copy code
-pip install -r requirements.txt
-Set up your .env file with the necessary environment variables, including your OpenAI API key:
-plaintext
-Copy code
-OPENAI_API_KEY=[your-openai-api-key]
-MSSQL_SERVER=[your-mssql-server]
-MSSQL_DATABASE=[your-database-name]
-MSSQL_USER=[your-username]
-MSSQL_PASSWORD=[your-password]
-Usage
-To launch the Streamlit application and start interacting with the chatbot:
+The chatbot integrates multiple technologies for a smooth experience:  
+1. **User Input**: Enter natural language queries into the Streamlit GUI.  
+2. **GPT-4 Integration**: Translates input into SQL commands.  
+3. **MSSQL Query Execution**: Runs the SQL query and fetches the data.  
+4. **Response Generation**: Returns the result in user-friendly natural language.
 
-bash
-Copy code
-streamlit run app.py
-Contributing
+**Workflow Architecture:**
+1. Input from Streamlit GUI → GPT-4 generates SQL → Execute on MSSQL → Display Results.  
 
+---
 
-We hope this project inspires your journey in integrating AI with web technologies.
+## 🛠 Installation
 
-Happy Coding! 🚀👨‍💻🤖
-
-If you find this repository helpful, please consider giving it a ⭐!
-
-Let me know if you'd like further refinements! 😊
+1. Clone the repository:  
+   ```bash
+   git clone [repository-link]
+   cd [repository-directory]
