@@ -46,11 +46,5 @@ The chatbot integrates multiple technologies for a smooth experience:
    pip install -r requirements.txt
 
 ## Configure environment variables
-
-1. Create a .env file in the root directory of your project and add the following environment variables:  
-   ```bash
-  OPENAI_API_KEY=[your-openai-api-key]
-  MSSQL_SERVER=[your-mssql-server]
-  MSSQL_DATABASE=[your-database-name]
-  MSSQL_USER=[your-username]
-  MSSQL_PASSWORD=[your-password]
+Create a .env file in the root directory of your project and add the following environment variables:  
+  
