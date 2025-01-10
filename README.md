@@ -38,3 +38,9 @@ The chatbot integrates multiple technologies for a smooth experience:
    ```bash
    git clone [repository-link]
    cd [repository-directory]
+
+##  Install dependencies
+
+### 1. Run the following command to install all required Python packages:
+   ```bash
+  pip install -r requirements.txt
