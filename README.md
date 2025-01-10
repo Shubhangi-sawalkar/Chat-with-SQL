@@ -46,5 +46,5 @@ The chatbot integrates multiple technologies for a smooth experience:
    pip install -r requirements.txt
 
 ## Configure environment variables
-Create a .env file in the root directory of your project and add the following environment variables:  
+Create a .env file in the root directory of your project.  
   
