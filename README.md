@@ -47,4 +47,10 @@ The chatbot integrates multiple technologies for a smooth experience:
 
 ## Configure environment variables
 Create a .env file in the root directory of your project.  
+
+## 💻 Usage
+
+### Launch the application:  
+   ```bash
+   streamlit run app.py
   
