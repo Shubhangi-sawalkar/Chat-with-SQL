@@ -2,7 +2,7 @@
 
 Welcome to the GitHub repository for our tutorial on building a natural language SQL chatbot using GPT-4! This project demonstrates how to create a chatbot capable of interpreting natural language queries, generating SQL queries, and fetching results from a Microsoft SQL Server (MSSQL) database. The project is intuitive and user-friendly, leveraging the power of OpenAI's GPT-4 model and an interactive Streamlit GUI.
 
-🟡 This repository is the companion resource for our YouTube video tutorial.
+
 
 Features
 Natural Language Processing: Leverages GPT-4 to understand and respond to user queries in natural language.
@@ -18,9 +18,6 @@ Executing the generated SQL query on a Microsoft SQL Server (MSSQL) database.
 Presenting the retrieved results back to the user in a conversational format.
 This integration involves GPT-4 for query generation, database interaction through Python, and an engaging GUI via Streamlit.
 
-Chatbot Architecture
-Refer to our YouTube video tutorial for an in-depth explanation and a step-by-step implementation guide:
-[Chat with MSSQL Database Using Python | LangChain Tutorial](Your YouTube Link).
 
 Installation
 Ensure Python is installed on your system.
@@ -48,15 +45,9 @@ bash
 Copy code
 streamlit run app.py
 Contributing
-This repository complements the YouTube tutorial and aims to provide an excellent learning experience. Contributions for bug fixes or typos are welcome.
 
-License
-This project is licensed under the MIT License. See the LICENSE file for details.
 
-Disclaimer
-This project is intended for educational and research purposes. Please ensure compliance with the terms and conditions of any APIs or services used.
-
-We hope this project inspires your journey in integrating AI with web technologies. For more tutorials, visit [Your YouTube Channel].
+We hope this project inspires your journey in integrating AI with web technologies.
 
 Happy Coding! 🚀👨‍💻🤖
 
