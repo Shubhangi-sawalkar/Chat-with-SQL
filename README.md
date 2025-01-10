@@ -56,14 +56,6 @@ Create a .env file in the root directory of your project.
    ```bash
    streamlit run app.py
 
----
 
-## 🌐 Architecture Overview
-
-1.  **Streamlit GUI** →  
-2. **Natural Language Input** →  
-3. **GPT-4 for SQL Conversion** →  
-4. **MSSQL Database Execution** →
-5. **Response Back to GUI** →
 
   
